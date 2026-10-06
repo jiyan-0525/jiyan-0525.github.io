@@ -548,7 +548,16 @@ footer {
   }
 
   .entry-title,
-  .proj-name {
+.proj-origin {
+  font-family: 'Space Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1px;
+}
+
+.proj-name {
     font-size: 10.5pt;
   }
 
@@ -562,6 +571,10 @@ footer {
 
   .proj-desc {
     font-size: 9.4pt;
+  }
+
+  .proj-origin {
+    font-size: 7.5pt;
   }
 
   .stack-row {

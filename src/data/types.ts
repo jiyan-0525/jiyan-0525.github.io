@@ -21,6 +21,7 @@ export interface Project {
   name: string;
   desc: string;
   tags: string[];
+  origin?: string;
 }
 
 export interface LangSkill {

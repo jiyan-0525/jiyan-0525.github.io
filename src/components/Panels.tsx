@@ -63,6 +63,7 @@ export function Panels({ cv, active }: PanelsProps) {
         <SectionHeader label={cv.sections.projects} />
         {cv.projects.map((project) => (
           <div className="proj" key={project.name}>
+            {project.origin && <div className="proj-origin">{project.origin}</div>}
             <div className="proj-name">{project.name}</div>
             <div className="proj-desc">{project.desc}</div>
             <div className="proj-tags">
