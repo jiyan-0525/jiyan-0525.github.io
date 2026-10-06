@@ -30,7 +30,8 @@ interface PanelsProps {
 export function Panels({ cv, active }: PanelsProps) {
   return (
     <div className="panels">
-      <Panel active={active === 'overview'} id="overview">
+      <div className="col-a">
+        <Panel active={active === 'overview'} id="overview">
         <SectionHeader label={cv.sections.overview} />
         <p className="profile">{cv.profile}</p>
 
@@ -58,8 +59,10 @@ export function Panels({ cv, active }: PanelsProps) {
           <Entry key={`${entry.title}-${entry.date}`} entry={entry} />
         ))}
       </Panel>
+      </div>
 
-      <Panel active={active === 'projects'} id="projects">
+      <div className="col-b">
+        <Panel active={active === 'projects'} id="projects">
         <SectionHeader label={cv.sections.projects} />
         {cv.projects.map((project) => (
           <div className="proj" key={project.name}>
@@ -95,6 +98,7 @@ export function Panels({ cv, active }: PanelsProps) {
           <b>{cv.hobbies.label}</b> · {cv.hobbies.value}
         </div>
       </Panel>
+      </div>
     </div>
   );
 }

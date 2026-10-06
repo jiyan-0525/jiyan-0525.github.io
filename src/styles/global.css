@@ -193,7 +193,12 @@ body {
 /* ---------- PANELS ---------- */
 .panels {
   margin-top: 18px;
-  min-height: 260px;
+}
+
+/* column wrappers only group panels for the print layout */
+.col-a,
+.col-b {
+  display: contents;
 }
 
 .panel {
@@ -514,9 +519,16 @@ footer {
   .panels {
     margin-top: 4mm;
     min-height: 0;
-    column-count: 2;
+    display: grid;
+    grid-template-columns: 1fr 60mm;
     column-gap: 7mm;
-    column-fill: auto;
+    align-items: start;
+  }
+
+  .col-a,
+  .col-b {
+    display: block;
+    min-width: 0;
   }
 
   .panel {
