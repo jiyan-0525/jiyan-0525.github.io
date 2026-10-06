@@ -148,7 +148,7 @@ export const en: Cv = {
   facts: [{ label: 'Driving licence', value: 'Class B (DE)' }],
   languages: [
     { name: 'Chinese', level: 'Native' },
-    { name: 'German', level: 'C1 course', note: 'Professional' },
+    { name: 'German', level: 'C1 course', note: 'Business' },
     { name: 'English', level: 'B2' },
   ],
   hobbies: { label: 'Hobbies', value: 'Traveling, cooking, yoga, skiing' },
