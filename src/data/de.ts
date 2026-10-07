@@ -5,7 +5,7 @@ export const de: Cv = {
   title: 'Jiyan Wang – Lebenslauf',
   nameFirst: 'Jiyan',
   nameLast: 'Wang',
-  role: 'AI DevOps Engineer · 42 Heilbronn',
+  role: 'Junior DevOps & AI Engineer',
   github: 'github.com/jiyan-0525',
   contacts: [
     { icon: '✉', text: 'jiyanw825@gmail.com', href: 'mailto:jiyanw825@gmail.com' },
