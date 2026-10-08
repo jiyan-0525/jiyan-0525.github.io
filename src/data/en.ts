@@ -7,6 +7,7 @@ export const en: Cv = {
   nameLast: 'Wang',
   role: 'Junior AI DevOps Engineer',
   github: 'github.com/jiyan-0525',
+  linkedin: 'linkedin.com/in/jiyan-wang-7a69b229a',
   contacts: [
     { icon: '✉', text: 'jiyanw825@gmail.com', href: 'mailto:jiyanw825@gmail.com' },
     { icon: '☎', text: '+49 172 5161 530' },

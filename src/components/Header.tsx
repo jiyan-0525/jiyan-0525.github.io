@@ -55,6 +55,12 @@ export function Header({ cv }: { cv: Cv }) {
             {cv.github}
           </a>
         </div>
+        <div className="role-gh">
+          <span className="k">◉</span>{' '}
+          <a href={`https://${cv.linkedin}`} target="_blank" rel="noreferrer">
+            {cv.linkedin}
+          </a>
+        </div>
       </div>
 
       <ul className="contact-list">

@@ -44,6 +44,7 @@ export interface Cv {
   nameLast: string;
   role: string;
   github: string;
+  linkedin: string;
   contacts: Contact[];
   profile: string;
   tabs: { id: TabId; label: string }[];
