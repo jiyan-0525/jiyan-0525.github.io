@@ -5,7 +5,7 @@ export const de: Cv = {
   title: 'Jiyan Wang – Lebenslauf',
   nameFirst: 'Jiyan',
   nameLast: 'Wang',
-  role: 'Junior AI DevOps Engineer',
+  role: 'AI Backend Engineer · 42 Heilbronn',
   github: 'github.com/jiyan-0525',
   linkedin: 'linkedin.com/in/jiyan-wang-7a69b229a',
   contacts: [
@@ -15,7 +15,9 @@ export const de: Cv = {
   ],
   profile:
     'Fokus auf Deployment-Automatisierung, Docker-Infrastruktur und Backend-Services (FastAPI, Pydantic). ' +
-    'Seit 06/2025 an der 42 Heilbronn, zuvor mehrjährige Vertriebserfahrung in der Automobil- und E-Commerce-Branche in China.',
+    'Seit 06/2025 an der 42 Heilbronn, zuvor mehrjährige Kundenbetreuung für Prüf- und Labordienstleistungen ' +
+    'in der Automobil- und Elektronikbranche in China (Auftragsabwicklung, Planungskoordination, Außendienst) ' +
+    'sowie Fahrzeugregistrierung, Vertrags- und Bestandsverwaltung und tägliche Verkaufs-KPI-Berichte bei einem Toyota-Händler.',
   tabs: [
     { id: 'overview', label: 'Übersicht' },
     { id: 'experience', label: 'Berufserfahrung' },

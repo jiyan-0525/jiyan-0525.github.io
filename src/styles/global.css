@@ -253,6 +253,8 @@ body::after {
 
 .role-gh .k {
   color: var(--accent);
+  font-size: 0.6em;
+  vertical-align: 0.08em;
 }
 
 .contact-list {

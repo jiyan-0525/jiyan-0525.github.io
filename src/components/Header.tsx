@@ -51,14 +51,14 @@ export function Header({ cv }: { cv: Cv }) {
         </div>
         <div className="role-gh">
           <span className="k">◉</span>{' '}
-          <a href={`https://${cv.github}`} target="_blank" rel="noreferrer">
-            {cv.github}
+          <a href={`https://${cv.linkedin}`} target="_blank" rel="noreferrer">
+            {cv.linkedin}
           </a>
         </div>
         <div className="role-gh">
           <span className="k">◉</span>{' '}
-          <a href={`https://${cv.linkedin}`} target="_blank" rel="noreferrer">
-            {cv.linkedin}
+          <a href={`https://${cv.github}`} target="_blank" rel="noreferrer">
+            {cv.github}
           </a>
         </div>
       </div>
