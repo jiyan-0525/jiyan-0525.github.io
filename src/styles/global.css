@@ -244,6 +244,13 @@ body::after {
   color: var(--accent);
   text-decoration: none;
   transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.role-gh svg {
+  flex: none;
 }
 
 .role-gh a:hover {
@@ -390,9 +397,11 @@ body::after {
 .profile {
   font-size: 16.5px;
   color: var(--muted);
-  max-width: 65ch;
+  max-width: none;
   margin-bottom: 8px;
   line-height: 1.6;
+  text-align: justify;
+  hyphens: auto;
 }
 
 /* ---------- SECTIONS ---------- */

@@ -5,7 +5,7 @@ export const de: Cv = {
   title: 'Jiyan Wang – Lebenslauf',
   nameFirst: 'Jiyan',
   nameLast: 'Wang',
-  role: 'AI Backend Engineer · 42 Heilbronn',
+  role: 'Junior AI Engineer · 42 Heilbronn',
   github: 'github.com/jiyan-0525',
   linkedin: 'linkedin.com/in/jiyan-wang-7a69b229a',
   contacts: [
@@ -14,10 +14,10 @@ export const de: Cv = {
     { icon: '⌂', text: 'Feurerstraße, Heilbronn, Deutschland' },
   ],
   profile:
-    'Fokus auf Deployment-Automatisierung, Docker-Infrastruktur und Backend-Services (FastAPI, Pydantic). ' +
-    'Seit 06/2025 an der 42 Heilbronn, zuvor mehrjährige Kundenbetreuung für Prüf- und Labordienstleistungen ' +
-    'in der Automobil- und Elektronikbranche in China (Auftragsabwicklung, Planungskoordination, Außendienst) ' +
-    'sowie Fahrzeugregistrierung, Vertrags- und Bestandsverwaltung und tägliche Verkaufs-KPI-Berichte bei einem Toyota-Händler.',
+    'Berufswechslerin mit praxisorientierter Erfahrung in Backend-Entwicklung, Containerisierung und Cloud Deployment. ' +
+    'Seit 06/2025 entwickle ich an der 42 Heilbronn Softwareprojekte mit C/C++, Linux, Netzwerken und Git. ' +
+    'Ergänzend habe ich Python-/FastAPI-Services mit Pydantic, SQLite und Docker umgesetzt und einen AI-Agenten ' +
+    'auf einer DigitalOcean Droplet bereitgestellt.',
   tabs: [
     { id: 'overview', label: 'Übersicht' },
     { id: 'experience', label: 'Berufserfahrung' },
@@ -118,10 +118,11 @@ export const de: Cv = {
   ],
   stack: [
     { label: 'DevOps', value: 'Linux, Docker, Git, GitHub Actions, DigitalOcean' },
+    { label: 'AI/LLM', value: 'Pydantic AI, LLM-API-Integration, Lokaler Fallback' },
+    { label: 'Frontend', value: 'React, TypeScript, HTML, CSS' },
     { label: 'Sprachen', value: 'Python, C, C++, SQL, Bash' },
     { label: 'Backend', value: 'FastAPI, Uvicorn, Pydantic' },
-    { label: 'Frontend', value: 'React, TypeScript, HTML, CSS' },
-    { label: 'Datenbanken', value: 'SQLite, SQLAlchemy' },
+    { label: 'Datenbanken', value: 'SQLite, MariaDB' },
   ],
   projects: [
     {

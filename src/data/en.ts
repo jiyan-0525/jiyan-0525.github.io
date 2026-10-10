@@ -5,7 +5,7 @@ export const en: Cv = {
   title: 'Jiyan Wang – Curriculum Vitae',
   nameFirst: 'Jiyan',
   nameLast: 'Wang',
-  role: 'AI Backend Engineer · 42 Heilbronn',
+  role: 'Junior AI Engineer · 42 Heilbronn',
   github: 'github.com/jiyan-0525',
   linkedin: 'linkedin.com/in/jiyan-wang-7a69b229a',
   contacts: [
@@ -14,10 +14,10 @@ export const en: Cv = {
     { icon: '⌂', text: 'Feurerstraße, Heilbronn, Germany' },
   ],
   profile:
-    'Focused on deployment automation, Docker infrastructure and backend services (FastAPI, Pydantic). ' +
-    'At 42 Heilbronn since 06/2025, previously several years of customer support for testing and laboratory services ' +
-    'in the automotive and electronics industries in China (order processing, planning coordination, field sales) ' +
-    'as well as vehicle registration, contract and inventory management and daily sales KPI reporting at a Toyota dealership.',
+    'Career changer with hands-on experience in backend development, containerization and cloud deployment. ' +
+    'Since 06/2025 I have been developing software projects at 42 Heilbronn with C/C++, Linux, networking and Git. ' +
+    'In addition, I have implemented Python/FastAPI services with Pydantic, SQLite and Docker and deployed ' +
+    'an AI agent on a DigitalOcean droplet.',
   tabs: [
     { id: 'overview', label: 'Overview' },
     { id: 'experience', label: 'Experience' },
@@ -118,10 +118,11 @@ export const en: Cv = {
   ],
   stack: [
     { label: 'DevOps', value: 'Linux, Docker, Git, GitHub Actions, DigitalOcean' },
+    { label: 'AI/LLM', value: 'Pydantic AI, LLM API Integration, Local Fallback' },
+    { label: 'Frontend', value: 'React, TypeScript, HTML, CSS' },
     { label: 'Languages', value: 'Python, C, C++, SQL, Bash' },
     { label: 'Backend', value: 'FastAPI, Uvicorn, Pydantic' },
-    { label: 'Frontend', value: 'React, TypeScript, HTML, CSS' },
-    { label: 'Databases', value: 'SQLite, SQLAlchemy' },
+    { label: 'Databases', value: 'SQLite, MariaDB' },
   ],
   projects: [
     {
