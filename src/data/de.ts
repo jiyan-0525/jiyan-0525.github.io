@@ -5,7 +5,7 @@ export const de: Cv = {
   title: 'Jiyan Wang – Lebenslauf',
   nameFirst: 'Jiyan',
   nameLast: 'Wang',
-  role: 'Junior AI Engineer · 42 Heilbronn',
+  role: 'Junior Full Stack AI Engineer · 42 Heilbronn',
   github: 'github.com/jiyan-0525',
   linkedin: 'linkedin.com/in/jiyan-wang-7a69b229a',
   contacts: [
@@ -14,10 +14,10 @@ export const de: Cv = {
     { icon: '⌂', text: 'Feurerstraße, Heilbronn, Deutschland' },
   ],
   profile:
-    'Berufswechslerin mit praxisorientierter Erfahrung in Backend-Entwicklung, Containerisierung und Cloud Deployment. ' +
+    'Full-Stack-Entwicklerin mit praxisorientierter Erfahrung in Backend-Entwicklung, Containerisierung und Cloud Deployment. ' +
     'Seit 06/2025 entwickle ich an der 42 Heilbronn Softwareprojekte mit C/C++, Linux, Netzwerken und Git. ' +
-    'Ergänzend habe ich Python-/FastAPI-Services mit Pydantic, SQLite und Docker umgesetzt und einen AI-Agenten ' +
-    'auf einer DigitalOcean Droplet bereitgestellt.',
+    'Ergänzend habe ich Python-/FastAPI-Services mit Pydantic, SQLite und Docker sowie React-/TypeScript-Frontends umgesetzt ' +
+    'und einen AI-Agenten auf einer DigitalOcean Droplet bereitgestellt.',
   tabs: [
     { id: 'overview', label: 'Übersicht' },
     { id: 'experience', label: 'Berufserfahrung' },
