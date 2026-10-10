@@ -14,7 +14,7 @@ export const en: Cv = {
     { icon: '⌂', text: 'Feurerstraße, Heilbronn, Germany' },
   ],
   profile:
-    'Full-stack developer with hands-on experience in backend development, containerization and cloud deployment. ' +
+    'Full-stack AI developer with hands-on experience in backend and frontend development, containerization and cloud deployment. ' +
     'Since 06/2025 I have been developing software projects at 42 Heilbronn with C/C++, Linux, networking and Git. ' +
     'In addition, I have implemented Python/FastAPI services with Pydantic, SQLite and Docker as well as React/TypeScript ' +
     'frontends, and deployed an AI agent on a DigitalOcean droplet.',

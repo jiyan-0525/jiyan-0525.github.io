@@ -14,7 +14,7 @@ export const de: Cv = {
     { icon: '⌂', text: 'Feurerstraße, Heilbronn, Deutschland' },
   ],
   profile:
-    'Full-Stack-Entwicklerin mit praxisorientierter Erfahrung in Backend-Entwicklung, Containerisierung und Cloud Deployment. ' +
+    'Full-Stack-AI-Entwicklerin mit praxisorientierter Erfahrung in Backend- und Frontend-Entwicklung, Containerisierung und Cloud Deployment. ' +
     'Seit 06/2025 entwickle ich an der 42 Heilbronn Softwareprojekte mit C/C++, Linux, Netzwerken und Git. ' +
     'Ergänzend habe ich Python-/FastAPI-Services mit Pydantic, SQLite und Docker sowie React-/TypeScript-Frontends umgesetzt ' +
     'und einen AI-Agenten auf einer DigitalOcean Droplet bereitgestellt.',
