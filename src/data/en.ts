@@ -133,13 +133,13 @@ export const en: Cv = {
     {
       name: 'Minishell',
       desc: 'A fully functional Unix shell built from scratch in C',
-      tags: ['Linux', 'Parser', 'Pipes', 'Fork', 'Signals', 'File Descriptors'],
+      tags: ['C', 'Linux', 'Unix Shell', 'Bash'],
       origin: '42 Heilbronn',
     },
     {
       name: 'Inception',
       desc: 'Docker infrastructure: Nginx, WordPress, MariaDB in a VM',
-      tags: ['Docker', 'Docker Compose', 'Networking', 'SSL/TLS', 'YAML'],
+      tags: ['Docker', 'Docker Compose', 'Networking', 'SSL/TLS'],
       origin: '42 Heilbronn',
     },
     {
