@@ -83,7 +83,7 @@ export const de: Cv = {
       org: 'Education Future, Heilbronn · DEKRA-zertifiziert',
       bullets: [
         'Python, HTML/CSS, SQL · Computer und Bauteile',
-        'IT-Branche und agiles Arbeiten · Praktikum bei Tecsee GmbH (240 h)',
+        'IT-Branche und agiles Arbeiten',
       ],
     },
     {
