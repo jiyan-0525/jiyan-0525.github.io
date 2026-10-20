@@ -83,7 +83,7 @@ export const en: Cv = {
       org: 'Education Future, Heilbronn · DEKRA certified',
       bullets: [
         'Python, HTML/CSS, SQL · computers and components',
-        'IT industry and agile working · internship at Tecsee GmbH (240 h)',
+        'IT industry and agile working',
       ],
     },
     {
